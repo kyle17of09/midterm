@@ -1,7 +1,13 @@
-//These are the changes to the file
-//No code was uploaded so this is here now
-class HelloWorld {
+public class AddIntegers {
+
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+
+        int first = 15;
+        int second = 25;
+
+        System.out.println("Enter two numbers: " + first + " " + second);
+        int sum = first + second;
+
+        System.out.println("The sum is: " + sum);
     }
 }
